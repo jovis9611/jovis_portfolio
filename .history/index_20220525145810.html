@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Portfolio website" />
+    <meta name="author" content="Jovis" />
+    <title>Jovis's Portfolio</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css" />
+    <link rel="stylesheet" href="css/body.css" />
+
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">JOVIS</a>
+        <button
+          class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#portfolio"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#about"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#skills"
+                >SKIllS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+        >
+          <source
+            src="assets/img/video/coverr-rocky-mountains-1585645475258.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="masthead-heading mb-0">JOVIS</h1>
+
+              <!-- Icon Divider-->
+              <div
+                class="d-flex justify-content-center divider-custom divider-light"
+              >
+                <div class="divider-custom-line"></div>
+              </div>
+              <br />
+              <!-- Masthead Subheading-->
+              <p class="masthead-subheading font-weight-light mb-0">
+                Web Application Developer . Data Analyst
+              </p>
+              <br /><br /><br />
+              <form method="get" action="resume_updated.docx">
+                <div class="btn-group-lg">
+                  <button class="btn btn-outline-light mr-3">
+                    My Resume
+                  </button>
+             </form
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
+        <!-- Portfolio Section Heading-->
+        <div class="content-section-heading text-center">
+          <h3
+            class="text-secondary mb-0 small"
+            style="
+              text-transform: uppercase;
+              font-family: 'Source Sans Pro';
+              font-size: 1rem;
+            "
+          >
+            Portfolio
+          </h3>
+          <h2 class="mb-1">Recent Projects</h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+        </div>
+        <br />
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center">
+          <!-- Portfolio Items-->
+     
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal1"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/django.png"
+                alt="Tasty Cake"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal2"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/flask.png"
+                alt="Circus Tent"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/data_v.png"
+                alt="Controller"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal4"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/web_scrapping.png"
+                alt="Locked Safe"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal5"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/submarine.png"
+                alt="Submarine"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Modal-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal0"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal0Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Anonymous Posting Confession Web Application
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/django.png"
+                    alt="Tasty Cake"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="text-justify">
+                    This is a simple Django Anonymous Posting Confession Web Application. For further details, 
+                    please refer the following link:  <a href="https://github.com/jovis9611/-anonymous_postings_platform">Github Respitory</a>
+                  </p><br>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Room Rental Prediction for Penang Area
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/flask.png"
+                    alt="Circus Tent"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="text-justify">
+                    This is a room rental prediction web aplication using Flask.
+                    For further details,please refer the following link: <br />
+                    <a href="https://room-rental-prediction.herokuapp.com/"
+                      >Room Rental Prediction Web Applciation Link</a
+                    ><br />
+                    <a
+                      href="https://github.com/jovis9611/room_rental_web_application"
+                      >Github Respitory Link</a
+                    >
+                  </p>
+
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Data Visualization and Analysis
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/data_v.png"
+                    alt="Controller"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="text-justify">
+                    Data Analysis of Hotel Demand Dataset. For further detail,
+                    please refer the following link: <br />
+                    <a
+                      href="https://www.kaggle.com/jovis9611/data-analysis-of-hotel-demand-dataset"
+                    >
+                      Data Analysis of Hotel Demand Dataset on Kaggle</a
+                    >
+                  </p>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Simple Web Scrapping
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/web_scrapping.png"
+                    alt="Locked Safe"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="text-justify">
+                    This is a simple web scrapping script. It will save as .csv after crawling process was done. But this script is
+                    only crawl the room has rent in Penang from ibilik.com. The github respitory link is show as below:
+                    <br />
+                    <a
+                      href="https://github.com/jovis9611/simple_web_scrapping"
+                    >Simple Web Scrapping Script</a>
+                  </p>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="#portfolioModal5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2 class="portfolio-modal-title text-secondary mb-0">
+                    Exploring on
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image--><img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/submarine.png"
+                    alt="Submarine"
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="text-justify">
+                    <ol>
+                      <li>Recommendation System</li>
+                      <li>Power BI tool</li>
+                      
+                    </ol>
+                  </p>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="page-section bg-primary text-white mb-0" id="about">
+      <div class="container mt-5 mb-5">
+        <!-- About Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading d-inline-block text-white">
+            ABOUT ME
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+          <div class="col-sm-6 md-5 mt-6 ml-auto" style="padding-top: 1.2em;">
+            <p class="text-justify">
+              Hi, my name is Jovis. I am interested in data analysis and web
+              app development. To me, data analysis is like exploring the data and analyzing 
+              it to find out the meaning or pattern behind the data. for me, the data analysis process 
+              is kind of like visualizing data, investigating it then providing the effective solution based 
+              on solid supportive findings from it to meet the goal given. In depth,those data also can be use to 
+              build the automation application. Example, like recognition application autobot and recommendation 
+              application.
+            </p>
+            <p class="text-justify">
+              For web app development, it interesting. This is because of it more on digitalizing a thing and giving 
+              functions for it according to the requirements of the solution to reduce workload from people. Example for
+              Physical product business field can digitalize their business to publish their product online to increase their 
+              sales and explore the new market for their business. Compare to data analysis, web development to me is more like 
+              a tool to reduce hard and redundant work and a presentation platform for embedding the machine learning model.
+            </p>
+          </div>
+          <!-- timeline -->
+       
+              <div class="col-md-4  offset-md-2">
+                <h4>WORKING EXPERIMENT</h4>
+                <ul class="timeline">
+                  <li>
+                    <p style="font-weight:bolder;">October 2019</p>
+                    <p style="font-weight:bold;">Internship at Keysight Technologies Malaysia Sdn Bhd.</p>
+                   
+                    <p>During Internship period, I learnt how to extract data
+                      from multiple XML files using Python and convert simple C#
+                      application into a web application.</p>
+                  </li>
+                  <li>
+                    <p style="font-weight:bolder;">November 2020</p>
+                    <p style="font-weight:bold;">Graduated from UUM</p>
+                
+                    <p>Get Bachelor of Information Technology Degree with majoring in Artificial Intelligence.</p>
+                  </li>
+                </ul>
+              
+          </div>
+      </div>
+    </section>
+    <section class="page-section" id="skills">
+      <div class="container">
+        <!-- Contact Section Heading-->
+        <div class="text-center">
+          <h2 class="page-section-heading text-secondary d-inline-block mb-0">
+            SKILLS
+          </h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+        </div>
+        <br />
+        <!-- Skill Section Content-->
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="d-flex flex-column align-items-center">
+              <div class="mb-3">
+                <div style="height: 25rem;" id="languageRadar"></div>
+              </div>
+              <div
+                class="text-muted"
+                style="margin-bottom: 0rem; padding-bottom: 0%;"
+              >
+                Skill
+              </div>
+              <a class="lead font-weight-bold" 
+                >Programming Language</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex flex-column align-items-center">
+              <div class="mb-3">
+                <div style="height: 25rem;" id="skillRadar"></div>
+              </div>
+              <div
+                class="text-muted"
+                style="margin-bottom: 0rem; padding-bottom: 0%;"
+              >
+                Skill
+              </div>
+              <a class="lead font-weight-bold" 
+                >Other Skills</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="mb-4">CONTACT ME AT</h4>
+            <p class="justify-content-center" style="font-size: 1.3rem;">
+              jovis9611@gmail.com
+            </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="mb-4">AROUND THE WEB</h4>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/jovis9611"
+              ><i class="fab fa-fw fa-github"></i></a
+            ><a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://www.linkedin.com/in/pei-sin-chuah-a87715184/"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+          </div>
+          <!-- Footer About Text-->
+          <div class="col-lg-4">
+            <h4 class="mb-4">MY BLOG</h4>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://jovis9611.github.io/jovis_Blog/"
+              ><i class="fa fa-home" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small class="pre-wrap"
+          >Copyright © 2020 Jovis All Rights Reserved
+        </small>
+      </div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+      data = [
+        {
+          type: "scatterpolar",
+          r: [72, 52, 60, 68, 60,65],
+          theta: ["Python", "Java", "C#", "SQL", "Javascript","Html and Css"],
+          fill: "toself",
+        },
+      ];  
+
+      layout = {
+        
+        polar: {
+          radialaxis: {
+            visible: true,
+            range: [0, 100],
+          },
+          
+        },
+        showlegend: false,
+      };
+
+      Plotly.newPlot("languageRadar", data, layout);
+
+      data2 = [
+        {
+          type: "scatterpolar",
+          r: [72, 72, 60, 68, 50],
+          theta: ["Active Listening", "Problem Solving", "Time Management", "Learning", "Communication"],
+          fill: "toself",
+        },
+      ];  
+
+
+
+      Plotly.newPlot("skillRadar", data2, layout);
+    </script>
+  </body>
+</html>
